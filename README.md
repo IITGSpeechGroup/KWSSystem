@@ -2,29 +2,34 @@
 
 First, follow the below step to download Anaconda from the below link using ```wget```
 
-```wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
 
 Use ```chmod``` to access the installed file
 
-```chmod 775 Anaconda3-2024.02-1-Linux-x86_64.sh
+```
+chmod 775 Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
 
 Install the Anaconda
 
-```./Anaconda3-2024.02-1-Linux-x86_64.sh
+```
+./Anaconda3-2024.02-1-Linux-x86_64.sh
 ```
 
 Use the follwoing steps to create a new conda environment with ```Python``` version ```3.9```.
 
-```cd /dataspace/diskspace/Anaconda
-   conda activate your_environment_name
-   conda create --name your_environment_name python=3.9
+```
+cd /dataspace/diskspace/Anaconda
+conda activate your_environment_name
+conda create --name your_environment_name python=3.9
 ```
 
 Activate the created conda environment
 
-```conda activate your_environment_name
+```
+conda activate your_environment_name
 ```
 
 Install ```Pytorch``` using the command below
