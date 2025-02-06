@@ -1,3 +1,6 @@
+#Densenet imported from  https://github.com/bearpaw/pytorch-classification/blob/master/models/cifar/densenet.py
+#Added functionalities such as Mel spectrogram generation, voice activity detection, identification classification, and incremental data loading during training
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
